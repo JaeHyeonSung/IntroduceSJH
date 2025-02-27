@@ -1,12 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-
+import SideBar from "../components/SIdeBar";
+import MainContents from "../components/MainContents";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>Page change Test</div>
+      <div className="AppMain">
+        <SideBar />
+
+        <MainContents />
+      </div>
     </>
   );
 }

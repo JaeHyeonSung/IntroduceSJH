@@ -1,0 +1,20 @@
+.MainContentsMain {
+  background-color: #efe6dd;
+  flex: 1;
+  color: black;
+}
+.scroller {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  border: 2px solid black;
+}
+.scroller section {
+  scroll-snap-align: start;
+  scroll-margin: 40px;
+}
+.section {
+  border-bottom: 1px solid black;
+  min-height: 200px;
+  height: auto;
+}
